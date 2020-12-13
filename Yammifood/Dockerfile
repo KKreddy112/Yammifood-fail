@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+ARG WORKSPACE
 RUN apt update -y
 RUN apt install -y openjdk-8-jdk
 RUN mkdir -p /u01/data
